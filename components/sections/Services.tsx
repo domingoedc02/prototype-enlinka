@@ -63,7 +63,7 @@ export default function Services() {
           return (
             <motion.div key={service.title} variants={item}>
               <Link href={href} className="block h-full">
-                <Card className="h-full border-t-2 border-transparent hover:border-electric transition-colors">
+                <Card className="h-full">
                   {Icon && (
                     <div className="w-12 h-12 rounded-xl bg-electric/10 flex items-center justify-center mb-4">
                       <Icon size={24} className="text-electric" />
